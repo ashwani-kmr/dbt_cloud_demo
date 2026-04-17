@@ -1,0 +1,7 @@
+models:
+  - name: firsttable
+    config:
+      materialized: table
+  - name: secondtable
+    config:
+      materialized: view
