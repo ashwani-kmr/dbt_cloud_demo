@@ -1,0 +1,15 @@
+seeds:
+  - name: country_mapping
+    description: "this is description for country_mapping"
+    config: 
+      column_types:
+        id: varchar
+        country: varchar
+        sales: integer
+  
+  - name: country_orders
+    description: "this is description for country_orders"
+    config: 
+      column_types:
+        country: varchar
+        orders: integer

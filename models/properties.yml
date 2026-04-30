@@ -1,3 +1,18 @@
+sources:
+  - name: "All_tables"
+    database: "SNOWFLAKE_SAMPLE_DATA"
+    schema: "TPCH_SF1"
+    tables:
+      - name: "CUSTOMER"
+  
+  - name: "src"
+    database: "TRAINING"
+    schema: "SCHEMA_LATEST"
+    tables:
+      - name: "dim_orders"
+
+
+
 models:
   - name: firsttable
     config:

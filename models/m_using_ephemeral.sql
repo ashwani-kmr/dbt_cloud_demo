@@ -1,0 +1,1 @@
+select * from {{ref('m_ephemeral_table')}} limit 5
