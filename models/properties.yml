@@ -10,6 +10,12 @@ sources:
     schema: "SCHEMA_LATEST"
     tables:
       - name: "dim_orders"
+      - name: "sales_data"
+      - name: "raw_sales_data"
+      - name: "customer_v0"
+      - name: "customer_v1"
+      - name: "customer_v3"
+      - name: "orders_inc"
 
 
 

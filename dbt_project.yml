@@ -2,6 +2,8 @@ name: 'my_new_project'
 model-paths: ["models"]
 seed-paths: ["seeds"]
 analysis-paths: ["analyses"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
 # models: 
 #   my_new_project:
 #     +materialized: table

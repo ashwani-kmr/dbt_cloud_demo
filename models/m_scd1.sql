@@ -1,0 +1,1 @@
+select * from {{ source('src', 'customer_v0') }}
