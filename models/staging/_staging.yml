@@ -1,0 +1,32 @@
+version: 2
+
+sources:
+  - name: tpch
+    description: 'TPC-H sample dataset provided by Snowflake for analytics and benchmarking use cases.'
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+
+    tables:
+      - name: customer
+        description: 'Contains customer master data including account balance, market segment, and customer location details.'
+
+      - name: lineitem
+        description: 'Contains detailed transactional line items for each order including pricing, quantity, discounts, taxes, and shipment information.'
+
+      - name: nation
+        description: 'Stores nation-level geographic information and links nations to their respective regions.'
+
+      - name: orders
+        description: 'Contains order header information including customer references, order dates, priorities, and total order prices.'
+
+      - name: part
+        description: 'Contains product or part master data including manufacturer, brand, type, size, and retail price information.'
+
+      - name: partsupp
+        description: 'Represents the relationship between parts and suppliers including supplier cost and available inventory quantity.'
+
+      - name: region
+        description: 'Stores high-level geographic region information used for regional analysis and reporting.'
+
+      - name: supplier
+        description: 'Contains supplier master data including supplier account balance, contact information, and associated nation.'
